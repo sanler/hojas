@@ -35,7 +35,8 @@ display: block;
 {
 left:20%;
 animation-name:animate;
-animation-duration: 4s;
+animation-duration: 10s;
+animation-delay:3s;
 }
 
 .set div:nth-child(2)
@@ -61,6 +62,8 @@ left:85%;
 .set div:nth-child(6)
 {
 left:15%;
+animation-name:animate;
+animation-duration: 13s;
 }
 
 @keyframes animate{
